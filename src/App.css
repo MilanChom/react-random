@@ -62,3 +62,13 @@
 .knoppen{
   margin: 1rem;
 }
+.hoofdTekst {
+  animation: color-cycle 5s infinite; /* Verander de tijd (3s) voor snelheid */
+}
+
+@keyframes color-cycle {
+  0%   { color: red; }
+  33%  { color: blue; }
+  66%  { color: green; }
+  100% { color: red; } /* Terug naar begin voor naadloze loop */
+}

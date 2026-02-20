@@ -21,7 +21,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1 className='hoofdTekst'>Vite + React</h1>
       <div className="card">
         <button className='knoppen' onClick={() => setCount((count) => count + 1)}>
           Count 1 is <p className='knopText'>{count}</p>
@@ -34,7 +34,7 @@ function App() {
         </button>
          <div>
         <p>
-          De verschill tussen de twee knoppen is
+          Het verschill tussen de twee knoppen is
           </p> 
           <h1 className='verchilKnop'>{verschill}</h1>
           </div>
