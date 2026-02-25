@@ -59,8 +59,19 @@
   cursor: pointer;
   transition: background-color 300ms, color 300ms;
 }
+.resetKnop:hover {
+  background-color: #ff6f61;
+  color: #282c34;
+  border: black solid 2px;
+}
 .knoppen{
   margin: 1rem;
+  cursor: pointer;
+}
+.knoppen:hover {
+  background-color: #ff6f61;
+  color: #282c34;
+  border: black solid 2px;
 }
 .hoofdTekst {
   animation: color-cycle 5s infinite; /* Verander de tijd (3s) voor snelheid */
@@ -71,4 +82,28 @@
   33%  { color: blue; }
   66%  { color: green; }
   100% { color: red; } /* Terug naar begin voor naadloze loop */
+}
+.knop {
+    font-size: 1.5em;
+    background-color: transparent;
+    border: 2px solid #ff6f61;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    text-decoration: none;
+}
+.knop:hover {
+    background-color: #ff6f61;
+    color: #282c34;
+    border: black solid 2px;
+}.link {
+    text-decoration: none;
+    color: white;
+}
+.link:hover {
+    color: #282c34;
+}
+.navigatieKnoppen {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Ruimte tussen de knoppen */
 }
