@@ -1,0 +1,46 @@
+.titel{
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+}
+.titel:hover {
+    color: lightgray;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+.link:hover {
+    color: #282c34;
+}
+.pagina-container {
+    background-color: #282c34;
+    font-size: 10px;
+}
+.pagina-header-content {
+    text-align: left;
+    display: flex;
+
+}
+.header-knoppen {
+    display: flex;
+    gap: 1rem;
+    margin-left: auto;
+}
+.header-knoppen .knop {
+    border: none;
+    border-radius: 2rem;
+}
+
+.knop {
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.knop:hover {
+    background-color: #ff6f61;
+    color: #282c34;
+    border: black solid 2px;
+}

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
 import './KnopCounterPagina.css'
-import { Link } from "react-router-dom";
+import { Header } from '../components/Header'
 
 function KnopCounterPagina() {
     const [count, setCount] = useState(0)
@@ -14,15 +14,9 @@ function KnopCounterPagina() {
 
     return (
         <>
+            <link rel="icon" type="image/svg+xml" href="./src/assets/red-button-icon-image-pixabay-25.png" />
             <title>Knop-counter</title>
-            <div className='navigatieKnoppen'>
-                <button className='knop'>
-                    <Link to="/" className="link">Start Pagina</Link>
-                </button>
-                <button className='knop'>
-                    <Link to="/pagina2" className="link">Pagina 2</Link>
-                </button>
-            </div>
+            <Header />
             <div>
                 <a href="https://vite.dev" target="_blank">
                     <img src="/vite.svg" className="logo" alt="Vite logo" />
