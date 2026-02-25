@@ -8,8 +8,8 @@ export function Header() {
             <Link to="/" className='titel'>Start Pagina</Link>
             <div className='header-knoppen'>
                 <button className="knop">
-                    <Link to="/pagina2" className="link">
-                        Pagina 2
+                    <Link to="/WeerPagina" className="link">
+                        Weer
                     </Link>
                 </button>
                 <button className="knop">

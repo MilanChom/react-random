@@ -22,6 +22,10 @@
 .pagina-header-content {
     text-align: left;
     display: flex;
+    border-bottom: 2px solid black;
+    padding: 1rem;
+    background-color: #282c34;
+    width: 100%;
 
 }
 .header-knoppen {
